@@ -19,7 +19,7 @@ A Rust-inspired Result type for Go, enabling elegant error handling with generic
 ## Installation
 
 ```bash
-go get github.com/yourusername/resulto
+go get github.com/osesantos/resulto
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ package main
 import (
     "errors"
     "fmt"
-    "github.com/yourusername/resulto"
+    "github.com/osesantos/resulto"
 )
 
 func divide(a, b int) resulto.Result[int] {
@@ -64,7 +64,7 @@ package main
 import (
     "errors"
     "fmt"
-    "github.com/yourusername/resulto"
+    "github.com/osesantos/resulto"
     "strconv"
 )
 

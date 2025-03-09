@@ -1,4 +1,4 @@
-![logo](https://github.com/user-attachments/assets/b711049a-3873-4a1c-8cbc-9e69e5b5f104)
+![logo](https://github.com/user-attachments/assets/b7475fc3-0640-4a38-b58f-f9ebb738ebd7)
 
 # Resulto
 

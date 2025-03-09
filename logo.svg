@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#5DC9E2" />
+  
+  <!-- Inner circle -->
+  <circle cx="100" cy="100" r="70" fill="#00ADD8" />
+  
+  <!-- Go gopher-inspired ears -->
+  <ellipse cx="65" cy="50" rx="15" ry="20" fill="#00ADD8" transform="rotate(-15 65 50)" />
+  <ellipse cx="135" cy="50" rx="15" ry="20" fill="#00ADD8" transform="rotate(15 135 50)" />
+  <ellipse cx="65" cy="50" rx="10" ry="15" fill="#5DC9E2" transform="rotate(-15 65 50)" />
+  <ellipse cx="135" cy="50" rx="10" ry="15" fill="#5DC9E2" transform="rotate(15 135 50)" />
+  
+  <!-- Result type symbols -->
+  <rect x="70" y="80" width="60" height="30" rx="5" fill="white" />
+  <text x="100" y="100" font-family="Arial, sans-serif" font-weight="bold" font-size="16" text-anchor="middle" fill="#00ADD8">OK</text>
+  
+  <rect x="70" y="120" width="60" height="30" rx="5" fill="white" />
+  <text x="100" y="140" font-family="Arial, sans-serif" font-weight="bold" font-size="16" text-anchor="middle" fill="red">Err</text>
+  
+  <!-- Arrow showing the flow -->
+  <path d="M150,100 L165,100 L160,95 M165,100 L160,105" fill="none" stroke="white" stroke-width="3" />
+</svg>

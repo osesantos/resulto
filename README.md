@@ -1,6 +1,6 @@
 # Resulto
 
-![Resulto Logo](https://github.com/osesantos/resulto/logo.svg)
+
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/yourusername/resulto.svg)](https://pkg.go.dev/github.com/yourusername/resulto)
 [![Go Report Card](https://goreportcard.com/badge/github.com/yourusername/resulto)](https://goreportcard.com/report/github.com/yourusername/resulto)
@@ -108,10 +108,6 @@ func main() {
 - `IsOk() bool`: Check if result is successful
 - `Unwrap() T`: Get value or panic if error
 - `UnwrapOr(def T) T`: Get value or default if error
-- `Map(fn func(T) U) Result[U]`: Transform successful value
-- `MapErr(fn func(error) error) Result[T]`: Transform error
-- `AndThen(fn func(T) Result[U]) Result[U]`: Chain operations
-- `Match(onSuccess func(T), onFailure func(error))`: Handle both outcomes
 - `UnwrapErr() error`: Get error or panic if successful
 
 ## Contributing

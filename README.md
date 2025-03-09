@@ -1,5 +1,6 @@
-# Resulto
+![logo](https://github.com/user-attachments/assets/b711049a-3873-4a1c-8cbc-9e69e5b5f104)
 
+# Resulto
 
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/yourusername/resulto.svg)](https://pkg.go.dev/github.com/yourusername/resulto)

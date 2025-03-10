@@ -3,8 +3,8 @@
 # Resulto
 
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/yourusername/resulto.svg)](https://pkg.go.dev/github.com/yourusername/resulto)
-[![Go Report Card](https://goreportcard.com/badge/github.com/yourusername/resulto)](https://goreportcard.com/report/github.com/yourusername/resulto)
+[![Go Reference](https://pkg.go.dev/badge/github.com/osesantos/resulto.svg)](https://pkg.go.dev/github.com/osesantos/resulto)
+[![Go Report Card](https://goreportcard.com/badge/github.com/osesantos/resulto)](https://goreportcard.com/report/github.com/osesantos/resulto)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A Rust-inspired Result type for Go, enabling elegant error handling with generics.

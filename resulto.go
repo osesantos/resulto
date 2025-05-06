@@ -7,6 +7,8 @@ type Result[T any] struct {
 	Ok    bool
 }
 
+type ResultAny = Result[any]
+
 // Success creates a new successful Result with the given value.
 func Success[T any](value T) Result[T] {
 	return Result[T]{Value: value, Ok: true}
@@ -20,6 +22,16 @@ func Failure[T any](err error) Result[T] {
 // FailureOf creates a new failed Result with the given error and value.
 func FailureOf[T any](err error, _ T) Result[T] {
 	return Result[T]{Err: err}
+}
+
+// Success creates a new successful ResultAny with the given value.
+func SuccessAny() ResultAny {
+	return ResultAny{Ok: true}
+}
+
+// Failure creates a new failed ResultAny with the given error.
+func FailureAny(err error) ResultAny {
+	return ResultAny{Err: err}
 }
 
 // IsOk returns true if the Result is successful.
